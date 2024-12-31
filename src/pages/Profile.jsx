@@ -60,7 +60,7 @@ const Profile = () => {
   
  async function logout(){
   dispatch(logoutUser())
-  navigate("/login")
+  navigate("/")
   }
 
   return (

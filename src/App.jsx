@@ -13,7 +13,7 @@ const App = () => {
     <div>
       {/* <Login/> */}
       <Routes>
-        <Route path='/login' element={
+        <Route path='/' element={
           // <PrivateRoute>
           <Login/>
           // </PrivateRoute>
